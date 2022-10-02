@@ -1,0 +1,257 @@
+body{
+    width: 100%;
+}
+
+.home-p{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/*--------------------Welcome banner---------------------*/
+
+.imag{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 8px;
+    width: 100%;
+
+}
+
+.imag img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.imag .trt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: black;
+    padding: 10px;
+    border: 0.5px solid rgb(100,100,100);
+    border-radius: 10px;
+
+}
+
+.trt p{
+    color: white;
+    font-family: cursive;
+    font-size: 16px;
+    text-align: center;
+}
+
+.wlcm{
+    width: 100%;
+    background-color: black;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+.wlcm h2{
+    color: rgb(0,230,0);
+    padding: 4px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.wlcm p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+/*---------------------------------Next section---------------------------------*/
+.dety{
+    width: 100%;
+    padding: 9px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(120,120,120);
+    border-radius: 10px;
+    margin: 15px 0px;
+}
+
+.dety .tet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tet h2{
+    color: rgb(0,230,0);
+    background-color: black;
+    border-radius: 5px;
+    padding: 4px 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tet p{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.tet p span{
+    color: rgb(0,230,0);
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+/*------------------Tool List-----------------*/
+.toosp{
+    width: 100%;
+}
+
+.toosp img{
+    width: 100%;
+}
+
+.tyr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.tyr .li-co{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lis-r{
+    color: rgb(0,230,0);
+    background-color: black;
+    border-radius: 20px;
+    padding: 4px 15px;
+    text-align: center;
+}
+
+.li-co{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(120,120,120);
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.li-co p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.li-co .but{
+    color: black;
+    background-color: rgb(0,230,0);
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    padding: 4px 20px;
+    border-radius: 20px;
+}
+
+.repo{
+    margin: 20px 0px;
+}
+
+.toled{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toled a{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    padding: 4px 25px;
+    background-color: rgb(0,230,0);
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 7px;
+}
+
+/*---------------------game list-----------------*/
+
+.gm-l{
+    margin: 10px;
+}
+
+
+/*--------------------Video List of home page-----------------*/
+.com-vid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid rgb(100,100,100);
+    margin: 13px 0px;
+    padding: 10px 10px;
+    background-color: black;
+    border-radius: 20px;
+
+}
+
+.com-vid h2{
+    color: rgb(0,230,0);
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px 0px;
+}
+
+.com-vid .vids{
+    width: 100%;
+    border: 1.2px solid rgb(80,80,80);
+    height: 170px;
+}
+
+.com-vid p{
+    color: white;
+    text-align: center;
+    margin: 10px 0px;
+    font-family: sans-serif;
+    word-spacing: 2px;
+    font-size: 13px;
+}
+
+.com-vid p a{
+    background-color: rgb(0,230,0);
+    color: black;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.infop{
+    padding: 5px 0px;
+}
+
