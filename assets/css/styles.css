@@ -330,28 +330,15 @@ and (max-device-width : 2048px)
 {
 
 html{
-	width: 560px;
-}
-
-.navs{
-	width: 560px;
-}
-
-}  
-
-@media only screen   
-and (min-device-width : 768px)   
-and (max-device-width : 2048px)  
-{
-
-html{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	width: 100%;
 }
 
 body{
 	width: 500px;
+	border: 2px solid black;
 }
 
 .navs{
@@ -367,5 +354,4 @@ body{
 	right: 520px;
 }
 
-	
 }  
