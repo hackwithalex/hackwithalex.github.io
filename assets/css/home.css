@@ -255,3 +255,22 @@ body{
     padding: 5px 0px;
 }
 
+@media only screen   
+and (min-device-width : 768px)   
+and (max-device-width : 2048px)  
+{
+
+html{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+body{
+	width: 500px;
+}
+
+.navs{
+	width: 500px;
+}
+}
