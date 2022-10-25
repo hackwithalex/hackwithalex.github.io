@@ -358,4 +358,14 @@ body{
 	width: 500px;
 }
 
+.whatsp{
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	bottom: 70px;
+	right: 520px;
+}
+
+	
 }  
