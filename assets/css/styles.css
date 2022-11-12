@@ -1,0 +1,357 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	font-family: 'Dongle', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Dongle', sans-serif;
+	font-family: 'Fira Sans', sans-serif
+}
+
+body{
+	background-color: rgb(10,10,10);
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style-type: none;
+}
+
+/*--------------Whatsapp icon------------------*/
+.insd{
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	bottom: 70px;
+	right: 10px;
+}
+
+.insd a i{
+	font-size: 37px;
+	color: rgb(255,0,44);
+	background-color: black;
+	border-radius: 20px;
+}
+
+
+
+/* -----------------Header section of website------------------*/
+header{
+	background-color: rgb(20,20,20);
+	width: 100%;
+	height: 50px;
+	display: flex;
+	padding: 0px 10px;
+	flex-direction: row;
+	border-radius: 0px 0px 10px 10px;
+	box-shadow: 2px 2px 2px black;
+}
+
+
+header img{
+	border: 1px solid rgb(0,234,0);
+	border-radius: 50%;
+	height: 35px;
+	width: 35px
+}
+
+header .logoc{
+	width: 15%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+header h1{
+	color: rgb(0,234,0);
+	letter-spacing: 1px;
+	font-size: 23px;
+}
+
+header .titlec{
+	width: 70%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header .headnd{
+	width: 15%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header .headnd img{
+	height: 20px;
+	width: 20px;
+	background-color: black;
+}
+
+
+
+/* ------------------Navigation bar-------------------- */
+
+.navs{
+    width: 100%;
+    height: 60px;
+    display: flex;
+	align-items: center;
+    justify-content: center;
+    background-color: rgb(20,20,20);
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px 30px;
+    bottom: 0;
+    position: fixed;
+	box-shadow: 0px 0px 3px 3px black;
+}
+
+.nav-menu{
+    width: 100%;
+    display: flex;
+	justify-content: space-between;
+
+}
+
+
+.navs .nav-menu a{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 4px 10px;
+	
+}
+
+.navs .nav-menu a i{
+	color: rgb(0,200,0);
+	font-size: 18px;
+}
+
+.text{
+	font-size: 12px;
+	color: rgb(0,200,0);
+	margin-top: 7px;
+}
+
+.navs .nav-menu a:hover{
+    background-color: black;
+	border-radius: 6px ;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	transition: 0.2s;
+
+}
+
+
+/*--------------Footer section-------------*/
+.last_line{
+	height: 0.1px;
+	width: 100%;
+	margin: 10px 0px;
+}
+
+footer{
+	background-color: rgb(10,10,10);
+}
+
+.footer_co{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0px;
+	margin-right: -200px;
+	margin-left: 0px;
+}
+
+.tit_last{
+	padding: 5px 50px;
+	margin-bottom: 10px;
+	color: rgb(0,200,0);
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.footer_co ul {
+	align-content: center;
+}
+
+.det1, .det2, .det3{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.det1 ul{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.det1 ul li a p{
+	color: rgb(255,255,255);
+	font-size: 12px;
+	padding: 3px 10px;
+	margin: 5px 0px;
+}
+
+.det2 a{
+	padding: 3px 5px;
+	color: white;
+    border: 1px solid white;
+    border-radius: 0% 20%;
+	margin: 10px;
+    padding: 7px;
+}
+
+.det2 ul{
+	margin-top: 10px;
+	display: flex;
+	flex-direction: raw;
+}
+
+.det3 p{
+	color: white;
+	font-size: 14px;
+}
+
+
+
+/* ------------ Copyright section for sololex ------------- */
+.copy_right{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.copy_right .copy_p{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.copy_right .copy_p p{
+	font-size: 10px;
+	margin: 2px 0px;
+	color: rgb(130,130,130)
+}
+
+.copy_right .logo_last{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#logo_lst{
+	height: 50px;
+	width: 50px;
+	border: 1px solid red;
+	border-radius: 50%;
+}
+
+.nothing{
+    height: 70px;
+    width: 100%;
+}
+
+.my-mail{
+	font-family: sans-serif;
+	padding: 0px;
+}
+
+#az{
+	margin-top: 10px;
+	color: rgb(170,170,170);
+	font-size: 12px;
+	margin-bottom: 2px;
+}
+
+#za{
+	color: rgb(170,170,170);
+	font-size: 12px;
+}
+
+
+
+.actve{
+    background-color: black;
+	border-radius: 6px ;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	transition: 0.2s;
+}
+
+.downf, .fuckyou{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.downf a i{
+	color: rgb(0,255,0);
+}
+
+.downf a p{
+	color: white;
+}
+
+.saale a p{
+	color: black;
+	background-color: rgb(0,255,0);
+	padding: 3px 20px;
+	border-radius: 20px;
+	font-weight: bold;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+@media only screen   
+and (min-device-width : 768px)   
+and (max-device-width : 2048px)  
+{
+
+html{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+body{
+	width: 500px;
+	border: 2px solid black;
+}
+
+.navs{
+	width: 500px;
+}
+
+.insd{
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	bottom: 70px;
+	right: 520px;
+}
+
+}  

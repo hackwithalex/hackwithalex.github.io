@@ -1,0 +1,267 @@
+.game p{
+    font-family: sans-serif;
+}
+
+.game{
+    padding: 0px 10px;
+
+}
+
+.locate{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.locate p{
+    color: rgb(0,230,0);
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.locate h3{
+    width: 60%;
+}
+
+.gme-tle{
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(19,19,19);
+    padding: 10px;
+    border-radius: 10px;;
+}
+
+.gme-tle h2{
+    color: rgb(0,230,0);
+}
+
+.log-feat{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0px;
+    background-color: rgb(19,19,19);
+    width: 100%;
+    height: 160px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.log-feat .gme-icn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 140px;
+    margin-left: 10px;
+}
+
+.log-feat .gme-icn img{
+    border-radius: 20px;
+    border: 2px solid black;
+    height: 138px;
+    width: 138px;
+}
+
+.log-feat .fetr{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 15px;
+    width: 50%;
+}
+
+.log-feat .fetr .com-a{
+    display: flex;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(100,100,100);
+    border-radius: 20px;
+    height: 30px;
+    align-items: center;
+    padding-left: 8px;
+}
+
+.log-feat .com-a i{
+    margin-right: 10px;
+}
+
+.log-feat p{
+    font-size: 13px;
+}
+
+/*--------------table of centent--------------*/
+
+.desc{
+    width: 100%;
+}
+
+.hea{
+    padding: 7px 5px;
+    color: rgb(0,230,0);
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 18px;
+}
+
+.desc ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.desc ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px;
+}
+
+.desc ul li a{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+
+/*-----------------Table content start-------------------*/
+/*---------description----------*/
+.desx{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.desx h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.desx p{
+    font-size: 14px;
+    color: white;
+    text-align: center; 
+    word-spacing: 1px;
+    font-weight: 400;
+}
+
+/*-------------Features of game-----------------*/
+
+
+.desz p{
+    margin: 5px 0px;
+    border: 3px solid black;
+    padding: 4px;
+    font-size: 13px;
+}
+
+.p-de{
+    margin: 6px;
+    font-size: 13px;
+}
+/*--------------------Image section-------------------*/
+
+.img{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img h3{
+    width: 100%
+}
+.img img{
+    margin: 10px 0px;
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+/*-----------------Download------------------*/
+.dold{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.down{
+    background-color: rgb(0,230,0);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.down p{
+    color: black;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.last-p{
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.secr{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secr .imq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secr img{
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(100,100,100);
+    background-color: black;
+    border-radius: 20%;
+}
+
+.secr p{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.secr h3{
+    color: rgb(0,230,0);
+    margin-top: 10px;
+}
+
+.higt{
+    color: rgb(0,230,0);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.scnt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    width: 100%;
+}
+
+.scnt img{
+    width: 48%;
+    border: 2px solid black;
+}
