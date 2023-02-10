@@ -1,0 +1,125 @@
+.main{
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heads{
+    color: rgb(0, 240, 0);
+    background-color: rgb(0, 0, 0);
+    margin: 20px 0px ;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.heads h2{
+    text-align: center;
+}
+
+.ig{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+    margin-bottom: 20px;
+
+}
+
+.ig img{
+    width: 100%;
+    border: 2px solid black;
+    box-shadow: 0px 0px 15px black;
+    margin: 20px 0px;
+    border-radius: 15px;
+}
+
+.ig .price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(19, 19, 19);
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: rgb(0, 240, 0);
+}
+
+.ig p{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.ig .we{
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.hi{
+    color: rgb(0, 240, 0);
+    background-color: black;
+    border-radius: 20px;
+    padding: 6px 20px;
+    text-align: center;
+    width: 100%;
+    margin: 10px 0px;
+    text-transform: uppercase;
+}
+
+.how p, .des p {
+    color: white; 
+    padding: 10px;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.main a{
+    color: white;
+    background-color: black;
+    padding: 5px 30px;
+    box-shadow: 0px 0px 15px green;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.main a:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    transition: 0.5s;
+}
+
+.con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.con p{
+    color: white;
+    border: 3px solid black;
+    padding: 5px 15px;
+    width: 90%;
+    margin: 5px 0px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+
+

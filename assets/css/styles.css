@@ -37,7 +37,7 @@ ul{
 
 .insd a i{
 	font-size: 37px;
-	color: rgb(255,0,44);
+	color: rgb(0, 255, 0);
 	background-color: black;
 	border-radius: 20px;
 }
@@ -77,6 +77,7 @@ header h1{
 	color: rgb(0,234,0);
 	letter-spacing: 1px;
 	font-size: 23px;
+	text-transform: uppercase;
 }
 
 header .titlec{
@@ -126,6 +127,9 @@ header .headnd{
 
 }
 
+.nav-menu .btnx{
+	width: 17%;
+}
 
 .navs .nav-menu a{
 	display: flex;
@@ -323,6 +327,46 @@ footer{
 }
 
 
+/*----------------------- Special for other or more option -----------------------------*/
+
+.morse{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 18%;
+}
+
+.morse a{
+	width: 60px;
+	height: 60px;
+	border: 2px solid rgb(0,234,0);
+	border-radius: 50%;
+	margin-top: -20px;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 0px 7px 7px black;
+}
+
+.navs .nav-menu .morse a:hover{
+	height: 60px;
+	width: 60px;
+	border-radius: 50px;
+	color: red;
+
+}
+
+/*.morse a:hover{
+	height: 60px;
+	width: 60px;
+	border-radius: 50px;
+	color: red;
+}*/
+
+
+/*------------------------------ Media query ---------------------------*/
 
 @media only screen   
 and (min-device-width : 768px)   
