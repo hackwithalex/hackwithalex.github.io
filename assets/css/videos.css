@@ -1,9 +1,0 @@
-.videos{
-    padding: 13px;
-    background-color: rgb(13,13,13);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
