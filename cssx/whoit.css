@@ -1,0 +1,69 @@
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.aboutx{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.hredf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px black;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.fucked{
+    color: rgb(179, 252, 96);
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+p{
+    color: white;;
+    font-size: 14px;
+    text-align: left;
+}
+
+.skilx{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px black;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.net{
+    margin: 10px 0px 8px 0px;
+}
+
+.nrt{
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.p_last{
+    text-align: center;
+}
+
+.thanks{
+    margin-bottom: 0px;
+}

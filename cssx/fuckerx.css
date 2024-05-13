@@ -1,0 +1,169 @@
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.htx{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.htx .hesd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0px 0px 10px 3px black;
+}
+
+.hesd h2{
+    color: rgb(179, 252, 96);
+    text-transform: uppercase;
+}
+
+.hesd p{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.hesd p span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.htx .imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px black;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.fucked{
+    color: rgb(179, 252, 96);
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.imgs img{
+    width: 100%;
+    box-shadow: 0px 0px 10px 3px black;
+    margin-bottom: 15px;
+}
+
+.feat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px black;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.feat p{
+    color: white;
+    font-size: 14px;
+    margin: 0px 7px ;
+    margin-bottom: 10PX;
+}
+
+.fed p{
+    text-align: left;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.crrt{
+    text-decoration: none;
+}
+
+.icnx{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.icnx i{
+    color: rgb(255, 217, 0);
+    font-size: 20px;
+
+}
+
+.icnx .isd{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 8px;
+    border-radius: 10px 0px 0px 0px;
+    box-shadow: 0px 0px 10px 3px black;
+}
+
+.fcs{
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fcs p{
+    color: rgb(255, 217, 0);
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid rgb(179, 252, 96);
+    padding: 8px;
+    text-align: center;
+    color: white;
+}
+
+.frtt{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.pricex{
+    padding: 15px;
+}
+
+.buyed a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(243, 169, 9);
+    padding: 10px 30px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px 4px black;
+}   

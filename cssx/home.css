@@ -1,0 +1,167 @@
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hmex{
+    padding: 15px;
+}
+
+.imxs{
+    width: 100%;
+}
+
+.imxs img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px black;
+    
+}
+
+.chtx{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px black;
+    margin-top: 14px;
+    padding: 10px;
+}
+
+.chtx h2{
+    color: rgb(179, 252, 96);
+    text-transform: uppercase;
+    font-size: 19px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.chtx p{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.chtx p span{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.huntx{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 3px black;
+}
+
+.huntx h2{
+    color: rgb(179, 252, 96);
+    text-transform: uppercase;
+    font-size: 19px;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+.huntx img{
+    margin: 5px 10px;
+    box-shadow: 0px 0px 10px 3px black;
+}
+
+.huntx p{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.huntx .buyx{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 8px;
+    justify-content: space-around;
+}
+
+.huntx .buyx a{
+    width: 45%;
+    padding: 3px;
+    border-radius: 8px;
+    background-color: rgb(243, 169, 9);
+    margin-bottom: 10px;
+}
+
+.huntx .buyx a p{
+    font-weight: 800;
+    color: black;
+    font-size: 15px;
+}
+
+.tytr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+}
+
+.al_s{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 196, 0);
+    padding: 10px 30px;
+    font-weight: 800;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px 4px black;
+}
+
+
+.fxv p{
+    margin: 0px;
+    text-align: left;
+    padding: 0px 0px 0px 10px;
+}
+
+.wer{
+    text-decoration: none;
+}
+
+.nks{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nks a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 85px;
+    width: 80px;
+    padding: 5px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(115, 143, 132);
+    padding-bottom: 10px;
+}
+
+.nks a i{
+    color: rgb(0, 255, 157);
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.awe{
+    color: red;
+}
