@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VritraSecz's GitHub Repositories</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1a;
+      color: #f0f0f0;
+      padding: 20px;
+    }
+    h1 {
+      color: #ff0000;
+    }
+    .repo {
+      border: 1px solid #333;
+      padding: 15px;
+      margin: 15px 0;
+      background-color: #262626;
+    }
+    .repo h3 {
+      margin: 0;
+    }
+    .repo p {
+      margin: 5px 0 0;
+      color: #b3b3b3;
+    }
+    .repo .deta-va-snippet {
+      margin-top: 10px;
+      color: #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+  <h1>VritraSecz's GitHub Repositories</h1>
+  <div id="repos"></div>
+
+  <script>
+    async function fetchRepos() {
+      const username = 'VritraSecz'; // GitHub username
+      try {
+        const response = await fetch(`https://api.github.com/users/${username}/repos`);
+        if (!response.ok) {
+          throw new Error('Network response was not ok ' + response.statusText);
+        }
+        const repos = await response.json();
+        const reposContainer = document.getElementById('repos');
+        reposContainer.innerHTML = '';
+
+        for (const repo of repos) {
+          const repoElement = document.createElement('div');
+          repoElement.className = 'repo';
+          repoElement.innerHTML = `
+            <h3><a href="${repo.html_url}" target="_blank">${repo.name}</a></h3>
+            <p>${repo.description || 'No description available'}</p>
+            <div class="deta-va-snippet" id="deta-${repo.name}">Loading details...</div>
+          `;
+          reposContainer.appendChild(repoElement);
+          fetchDetaFile(username, repo.name);
+        }
+      } catch (error) {
+        console.error('Fetch error: ', error);
+        const reposContainer = document.getElementById('repos');
+        reposContainer.innerHTML = '<p>Failed to load repositories. Please try again later.</p>';
+      }
+    }
+
+    async function fetchDetaFile(username, repoName) {
+      try {
+        const response = await fetch(`https://api.github.com/repos/${username}/${repoName}/contents/deta.va`, {
+          headers: {
+            Accept: 'application/vnd.github.v3.raw'
+          }
+        });
+        if (response.ok) {
+          const detaContent = await response.text();
+          document.getElementById(`deta-${repoName}`).textContent = detaContent;
+        } else {
+          document.getElementById(`deta-${repoName}`).textContent = 'No deta.va file available';
+        }
+      } catch (error) {
+        console.error('Fetch deta.va error: ', error);
+        document.getElementById(`deta-${repoName}`).textContent = 'Failed to load deta.va file';
+      }
+    }
+
+    fetchRepos();
+  </script>
+</body>
+</html>
