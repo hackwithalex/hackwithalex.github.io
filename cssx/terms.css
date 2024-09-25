@@ -1,0 +1,28 @@
+.termx{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}   
+
+.ters{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0px 0px 10px 3px black;
+    max-width: 100%; /* Prevents the container from growing too wide */
+    overflow: hidden; /* Hides overflowed content if necessary */
+}
+
+.ters pre{
+    color: red;
+    font-size: 9px;
+    text-align: left;
+    white-space: pre-wrap; /* Ensures text wraps inside the container */
+    word-wrap: break-word; /* Allows long words to wrap */
+    width: 100%; /* Make the pre element take full width of the container */
+    overflow: auto; /* Adds scrollbars if necessary */
+}
