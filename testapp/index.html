@@ -3,98 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Click Game</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f0f0f0;
+    <title>Telegram Mini App</title>
+    <script>
+        // Function to parse the initData
+        function parseInitData(initData) {
+            const params = new URLSearchParams(initData);
+            return {
+                userId: params.get('user_id'), // User ID
+                firstName: params.get('first_name'), // User's first name
+                lastName: params.get('last_name'), // User's last name
+                username: params.get('username'), // User's username
+                photoUrl: params.get('photo_url') // User's profile picture URL
+            };
         }
-        h1 {
-            color: #333;
-        }
-        #counter {
-            font-size: 2rem;
-            margin: 20px;
-        }
-        button {
-            font-size: 1.5rem;
-            padding: 10px 20px;
-            background-color: #28a745;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        button:disabled {
-            background-color: grey;
-        }
-    </style>
+
+        // Run on page load
+        window.onload = function() {
+            // Get the initData from Telegram Web App
+            const initData = window.Telegram.WebApp.initData;
+
+            // Parse the initData
+            const user = parseInitData(initData);
+
+            // Display user information
+            console.log("User ID:", user.userId);
+            console.log("User's Name:", user.firstName);
+            console.log("User's Last Name:", user.lastName);
+            console.log("Username:", user.username);
+            console.log("Photo URL:", user.photoUrl);
+
+            // Example: Display name in the HTML
+            document.getElementById('user-name').innerText = `Hello, ${user.firstName}!`;
+        };
+    </script>
 </head>
 <body>
-
-    <h1>Click the Button!</h1>
-    <p>Time Remaining: <span id="time">10</span> seconds</p>
-    <p>Clicks: <span id="counter">0</span></p>
-    <button id="clickBtn" onclick="increment()">Click Me!</button>
-    <button id="restartBtn" onclick="restart()" style="display: none;">Restart</button>
-
-    <!-- Include the Telegram Web App SDK -->
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
-
-    <script>
-        // Initialize the Telegram Web App when the app is opened inside Telegram
-        Telegram.WebApp.ready();
-
-        let counter = 0;
-        let timeLeft = 10;
-        let gameOver = false;
-        const clickBtn = document.getElementById('clickBtn');
-        const restartBtn = document.getElementById('restartBtn');
-        const timeDisplay = document.getElementById('time');
-        const counterDisplay = document.getElementById('counter');
-
-        // Function to increment the click counter
-        function increment() {
-            if (!gameOver) {
-                counter++;
-                counterDisplay.innerText = counter;
-            }
-        }
-
-        // Function to start the countdown
-        function startTimer() {
-            const interval = setInterval(() => {
-                timeLeft--;
-                timeDisplay.innerText = timeLeft;
-
-                if (timeLeft <= 0) {
-                    clearInterval(interval);
-                    gameOver = true;
-                    clickBtn.disabled = true;
-                    restartBtn.style.display = 'inline-block';
-                    alert(`Time's up! You clicked ${counter} times.`);
-                }
-            }, 1000);
-        }
-
-        // Start the timer when the page loads
-        window.onload = () => {
-            startTimer();
-        };
-
-        // Function to restart the game
-        function restart() {
-            counter = 0;
-            timeLeft = 10;
-            gameOver = false;
-            counterDisplay.innerText = counter;
-            timeDisplay.innerText = timeLeft;
-            clickBtn.disabled = false;
-            restartBtn.style.display = 'none';
-            startTimer();
-        }
-    </script>
-
+    <h1>Welcome to My Telegram Mini App</h1>
+    <p id="user-name"></p>
 </body>
 </html>
