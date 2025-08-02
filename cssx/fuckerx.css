@@ -24,7 +24,7 @@ p{
 }
 
 .hesd h2{
-    color: rgb(179, 252, 96);
+    color: rgb(0, 255, 157);
     text-transform: uppercase;
 }
 
@@ -54,7 +54,7 @@ p{
 }
 
 .fucked{
-    color: rgb(179, 252, 96);
+    color: rgb(0, 255, 157);
     font-size: 20px;
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -139,7 +139,7 @@ table {
     width: 100%;
 }
 th, td {
-    border: 1px solid rgb(179, 252, 96);
+    border: 1px solid rgb(0, 255, 157);
     padding: 8px;
     text-align: center;
     color: white;
