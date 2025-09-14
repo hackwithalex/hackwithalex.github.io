@@ -1,0 +1,23 @@
+{
+  "name": "VritraSec",
+  "short_name": "VritraSec",
+  "description": "Official platform of Vritra Security Organization. Explore premium cybersecurity tools, AI apps, OSINT frameworks and utilities — all in one place.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#00ff88",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/imgx/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/imgx/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
